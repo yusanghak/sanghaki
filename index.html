@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신나는 테트리스</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>신나는 테트리스</h1>
+    <div class="game-container">
+        <canvas id="tetris-board" width="300" height="300"></canvas>
+        <div class="game-info">
+            <h2>점수</h2>
+            <p id="score">0</p>
+            <h2>다음 블록</h2>
+            <canvas id="next-block" width="120" height="120"></canvas>
+            <button id="start-button">게임 시작</button>
+            <button id="pause-button">일시정지</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
